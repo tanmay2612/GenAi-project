@@ -1,0 +1,37 @@
+{
+  "report_type": "crack_diagnostic",
+  "schema_version": "1.0",
+  "defect_type": "Structural Shear",
+  "crack_width_mm": 4.5,
+  "crack_pattern": "Diagonal crack at about 45 degrees near the beam support",
+  "severity_level": "Critical",
+  "severity_score": 88,
+  "urgency": "Immediate: restrict access and call a structural engineer",
+  "root_causes": [
+    "Insufficient shear reinforcement or stirrup spacing",
+    "Overloading beyond design capacity"
+  ],
+  "recommended_repairs": [
+    {
+      "method": "Temporary propping",
+      "details": "Prop the member and remove live load immediately."
+    },
+    {
+      "method": "Structural strengthening",
+      "details": "Jacket the beam or bond FRP wraps as designed by a structural engineer."
+    },
+    {
+      "method": "Epoxy injection",
+      "details": "Inject cracks once the strengthening scheme is approved."
+    }
+  ],
+  "monitoring_plan": "Install crack monitors and review daily until the strengthening is complete.",
+  "confidence": 0.8,
+  "summary": "A wide diagonal crack at a support is a classic shear failure sign. Treat the member as unsafe until it is propped and assessed.",
+  "meta": {
+    "mode": "demo",
+    "model": "demonstration",
+    "generated_at": "2026-10-28T06:27:11+00:00",
+    "elapsed_seconds": 0.0
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "report_type": "ppe_safety_audit",
+  "schema_version": "1.0",
+  "safety_score": 34,
+  "overall_status": "Critical",
+  "workers_detected": 3,
+  "ppe_detection": [
+    {
+      "item": "Helmet",
+      "status": "Missing",
+      "notes": "Two of three workers bare-headed."
+    },
+    {
+      "item": "High-Vis Vest",
+      "status": "Missing",
+      "notes": "No high-visibility clothing seen."
+    },
+    {
+      "item": "Safety Boots",
+      "status": "Detected",
+      "notes": "Boots visible on one worker."
+    },
+    {
+      "item": "Safety Harness",
+      "status": "Missing",
+      "notes": "Worker on the ladder top is unprotected."
+    }
+  ],
+  "hazards": [
+    {
+      "hazard": "Unprotected excavation edge with workers nearby",
+      "severity": "Critical",
+      "location": "Trench, mid-ground",
+      "remedy": "Barricade the edge, keep spoil at least 0.6 m back, and shore or slope the trench wall (OSHA 1926.651)."
+    },
+    {
+      "hazard": "Overhead load handled with people underneath",
+      "severity": "High",
+      "location": "Crane swing area",
+      "remedy": "Set an exclusion zone and use a banksman for all lifts."
+    },
+    {
+      "hazard": "Temporary electrical cable on wet ground",
+      "severity": "High",
+      "location": "Left foreground",
+      "remedy": "Lift cables off the ground, use RCD protection, and replace damaged insulation."
+    }
+  ],
+  "summary": "Several workers lack basic PPE and an open trench has no edge protection. Stop work in this area until it is made safe.",
+  "standards_referenced": [
+    "OSHA 29 CFR 1926.651",
+    "OSHA 29 CFR 1926.100",
+    "BOCW Act 1996"
+  ],
+  "meta": {
+    "mode": "demo",
+    "model": "demonstration",
+    "generated_at": "2026-10-28T06:27:11+00:00",
+    "elapsed_seconds": 0.0
+  }
+}

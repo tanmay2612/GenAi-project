@@ -1,0 +1,27 @@
+{
+  "structure_type": "Independent House (RCC)",
+  "tier": 2,
+  "built_up_sqft": 2400,
+  "completion_pct": 40.0,
+  "total_budget": 4560000,
+  "capex_incurred": 1824000,
+  "remaining_budget": 2736000,
+  "full_market_value": 14400000,
+  "current_asset_value": 8352000,
+  "value_gain_vs_capex": 6528000,
+  "steel_total_tonnes": 9.6,
+  "steel_used_tonnes": 3.84,
+  "cement_total_bags": 960,
+  "cement_used_bags": 384,
+  "current_milestone": "RCC superstructure",
+  "budget_breakdown": {
+    "Foundation and RCC structure": 1732800,
+    "Masonry, plaster and finishing": 1231200,
+    "MEP (electrical, plumbing, HVAC)": 684000,
+    "Labour and site overheads": 547200,
+    "Professional fees and contingency": 364800
+  },
+  "report_type": "planning_valuation",
+  "schema_version": "1.0",
+  "currency": "INR"
+}
